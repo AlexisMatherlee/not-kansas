@@ -7,30 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        int x = 10;
-        NSString *myString = [NSString stringWithFormat:@"The variable x stores the number %i", x];
-        NSLog(@"%@", myString);
+        Person *newPerson = [[Person alloc] init];
         
-        
-        
-        NSLog(@"Please enter a word.");
-        
-        // 1
-        char cstring[40];
-        
-        // 2
-        scanf("%s",cstring);
-        
-        // 3
-        NSString *inputString = [NSString stringWithCString:cstring encoding:1];
-        
-        NSLog(@"You entered the word '%@'and it is %li characters long", inputString, [inputString length]);
+        [newPerson enterInfo];
+        [newPerson printInfo];
         
     }
     return 0;

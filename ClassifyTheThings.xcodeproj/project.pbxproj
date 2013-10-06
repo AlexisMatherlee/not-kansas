@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E88660201802025C00E3581B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E886601F1802025C00E3581B /* Person.m */; };
 		E8951DE317FE65F0009CB87D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8951DE217FE65F0009CB87D /* Foundation.framework */; };
 		E8951DE617FE65F0009CB87D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8951DE517FE65F0009CB87D /* main.m */; };
 		E8951DEA17FE65F0009CB87D /* ClassifyTheThings.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8951DE917FE65F0009CB87D /* ClassifyTheThings.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E886601E1802025C00E3581B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E886601F1802025C00E3581B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		E8951DDF17FE65F0009CB87D /* ClassifyTheThings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClassifyTheThings; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8951DE217FE65F0009CB87D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E8951DE517FE65F0009CB87D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				E8951DE517FE65F0009CB87D /* main.m */,
+				E886601E1802025C00E3581B /* Person.h */,
+				E886601F1802025C00E3581B /* Person.m */,
 				E8951DE917FE65F0009CB87D /* ClassifyTheThings.1 */,
 				E8951DE717FE65F0009CB87D /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88660201802025C00E3581B /* Person.m in Sources */,
 				E8951DE617FE65F0009CB87D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +257,7 @@
 				E8951DEF17FE65F0009CB87D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
